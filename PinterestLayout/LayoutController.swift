@@ -95,12 +95,22 @@ class LayoutController: UICollectionViewController, UICollectionViewDelegateFlow
                     if let items = jsonResult["items"]! as? [[String:AnyObject]] {
                         let count : Int = items.count
                         NSLog("%@", "Loaded \(count) items ... ")
-                        self.videos = items;
+                        var videos = Array<AnyObject>()
+                        for var i = 0;  i < count; i++ {
+                            videos.append(items[i])
+                        }
+                        self.videos = videos;
+                        //                        self.videos = items;
                         self.imageCache = NSMutableDictionary()
                     }
                     NSLog("%@", "About to reload  data ... ")
-                    self.collectionView?.reloadData()
-                    NSLog("%@", "Data reloaded ... ")
+                    // fire refresh in the main thread 
+                    // source: http://stackoverflow.com/questions/16419645/uicollectionview-takes-a-long-time-to-refresh-data
+                    let col :UICollectionView = self.collectionView!
+                    dispatch_async(dispatch_get_main_queue()) {
+                        col.reloadData()
+                        NSLog("%@", "Data reloaded ... ")
+                    }
                     
                 } else {
                     // couldn't load JSON, look at error
