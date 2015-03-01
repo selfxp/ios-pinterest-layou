@@ -27,15 +27,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="199" height="315"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jw4-Cu-7T5">
-                                            <rect key="frame" x="8" y="29" width="183" height="158"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sample" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7p-KY-nPd">
                                             <rect key="frame" x="8" y="195" width="183" height="112"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                             <color key="textColor" red="0.47604776072315769" green="0.43302370480253333" blue="0.48086144179894175" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jw4-Cu-7T5">
+                                            <rect key="frame" x="8" y="31" width="183" height="123"/>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
@@ -43,7 +43,7 @@
                                 <constraints>
                                     <constraint firstItem="N7p-KY-nPd" firstAttribute="trailing" secondItem="EPa-OH-FeR" secondAttribute="trailingMargin" id="0kX-Mq-UVS"/>
                                     <constraint firstItem="N7p-KY-nPd" firstAttribute="bottom" secondItem="EPa-OH-FeR" secondAttribute="bottomMargin" id="JYM-PF-BC9"/>
-                                    <constraint firstItem="Jw4-Cu-7T5" firstAttribute="trailing" secondItem="EPa-OH-FeR" secondAttribute="trailingMargin" constant="16" id="YLa-e0-cNE"/>
+                                    <constraint firstAttribute="centerX" secondItem="Jw4-Cu-7T5" secondAttribute="centerX" id="SQr-m5-6Rl"/>
                                     <constraint firstItem="N7p-KY-nPd" firstAttribute="leading" secondItem="EPa-OH-FeR" secondAttribute="leadingMargin" id="pMl-iW-jDs"/>
                                 </constraints>
                                 <connections>

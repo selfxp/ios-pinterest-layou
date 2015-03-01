@@ -12,22 +12,34 @@
 	<dict>
 		<key>2C67A0468AC66F888425555F027D103A36FF2D4F</key>
 		<string>github.com:sarchak/UICollectionView.git</string>
+		<key>9A45C327ED88A2FB0A4E5BBBA9BA4E2924DDD6F4</key>
+		<string>http://grm.streamkit.org/scm/sk/ios_pinterest_layout.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PinterestLayout.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2C67A0468AC66F888425555F027D103A36FF2D4F</key>
+		<string>../../../PinterestLayout</string>
+		<key>9A45C327ED88A2FB0A4E5BBBA9BA4E2924DDD6F4</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:sarchak/UICollectionView.git</string>
+	<string>http://grm.streamkit.org/scm/sk/ios_pinterest_layout.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2C67A0468AC66F888425555F027D103A36FF2D4F</string>
+	<string>9A45C327ED88A2FB0A4E5BBBA9BA4E2924DDD6F4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9A45C327ED88A2FB0A4E5BBBA9BA4E2924DDD6F4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_pinterest_layout</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
